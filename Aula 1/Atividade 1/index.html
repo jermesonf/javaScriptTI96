@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+</head>
+<body>
+
+    <!-- Atividade 1 -->
+
+     <script>
+
+    console.log("==========1============")
+
+        var numero1=23;
+        var numero2=10;
+
+        console.log(numero1+numero2);
+
+    console.log("==========2============")
+
+        //•Criar um aplicação que crie duas variáveis do tipo numérica, com os seguintes valores:
+        // Variavel1=100
+        // Variavel2=15
+        // E mande para o console a divisão das duas multiplicado por 2
+
+        var numero3=100;
+        var numero4=15;
+
+        console.log(numero3 / numero4);
+
+    console.log("==========3============")
+
+        // •Criar uma aplicação que crie 4 variáveis e numéricas, que no final você tire a média dos valores e mande para o console.
+        // •Obs: tenta mandar formatado.
+
+        var num1=3;
+        var num2=8;
+        var num3=10;
+        var num4=6;
+
+        console.log(num1+num2+num3+num4 / 4)
+
+    console.log("==========4============")
+    
+        // •Cria uma aplicação que calcule a seguinte proposição:
+
+        // •P=4
+        // •Q=7
+        // •R= true
+        // •(p>q & q==7) || (r!=false)
+        // •Imprima no console.log()
+        // •Depois tenta montar no papel a tabela verdade desse proposição
+
+        var p=4
+        var q=7
+        var r=true
+
+                    // false           //true
+        console.log((p>q & q==7) || (r!=false)) // True
+
+
+    console.log("==========5============")
+
+        //•Crie um html com os seguinte elementos.
+
+        // •H1= Titulo
+        // •P= O texto antigo é esse 
+        // •Input=“”
+        // •Depois crie variáveis no Javascript para manipular os 3 elementos. 
+        // •No H1, você vai modifcar o texto para=“ novo Titulo”; no P=“esse é o novo texto”;
+        // •No input você vai mandar um novo valor para dentro dele, “valor novo”.   
+
+        var t=document.querySelector(".t");
+        t.innerHTML="Novo Titulo";
+
+        var pr=document.querySelector(".pr");
+        pr.innerHTML="Esse é o novo texto";
+
+        var digitar=document.querySelector(".digitar");
+        digitar.value="Valor Novo";
+
+    </script>
+
+        <div>
+          <h1 class="t">Titulo</h1>
+          <p class="pr">o Texto Antigo é esse</p>
+        <input class="digitar"  type="text" placeholder="">
+      </div>
+</body>
+</html>

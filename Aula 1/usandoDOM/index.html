@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando o html</title>
+    <style>
+        .conteudo 
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="vouManipular"> qualquer coisa</h1>
+
+    <div class="conteudo">
+
+        <div class="titulo">Numero</div>
+
+        <div>
+            <!-- Quando eu for manipular um input vou usaro value -->
+            <input class="Entrada"  type="text" placeholder="Digite um numero">
+        </div>
+
+        <div class="saida">Resposta</div>
+
+    </div>
+
+    <div>
+        <button class="btn">Cadastrar</button>
+    </div>
+
+    <script>
+        var titulo=document.querySelector(".conteudo");
+        console.log(titulo);
+
+        var vouManipular=document.querySelector(".vouManipular");
+        vouManipular.innerHTML="lerolero";
+
+        var Resposta=document.querySelector(".saida");
+        Resposta.innerHTML="Aqui vai ser minha resposta";
+
+        var EntradaDados=document.querySelector(".entrada");
+        EntradaDados.value="conteudo interno";
+
+
+    </script>
+</body>
+</html>
